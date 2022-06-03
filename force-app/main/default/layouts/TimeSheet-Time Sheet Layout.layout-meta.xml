@@ -29,7 +29,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>ProjectApro__c</field>
+                <field>Approver__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>Submitter__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
