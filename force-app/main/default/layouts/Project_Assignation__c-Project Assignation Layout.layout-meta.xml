@@ -16,7 +16,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>Assignation__c</field>
+                <field>Contract__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns/>
