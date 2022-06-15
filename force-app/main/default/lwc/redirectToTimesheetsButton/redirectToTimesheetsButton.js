@@ -10,9 +10,9 @@ export default class RedirectToTimesheetsButton extends NavigationMixin(Lightnin
 
     handleClick() {
         this[NavigationMixin.Navigate]({
-            type: 'standard__namedPage',
+            type: 'comm__namedPage',
             attributes: {
-                pageName: 'Create_New_Timesheet__c'
+                name: 'Create_New_Timesheet__c'
             },
         });
     }

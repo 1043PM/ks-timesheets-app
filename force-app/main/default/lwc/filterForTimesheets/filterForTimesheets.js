@@ -5,9 +5,9 @@ export default class FilterForTimesheets extends LightningElement {
 
     get options() {
         return [
-            { label: 'New', value: 'new' },
-            { label: 'In Progress', value: 'inProgress' },
-            { label: 'Finished', value: 'finished' },
+            { label: 'Oldest date', value: 'oldest date' },
+            { label: 'Latest date', value: 'latest date' },
+            { label: 'Last Modified', value: 'last Modified' },
         ];
     }
 }
