@@ -1,3 +1,24 @@
 <template>
-    
+    <lightning-combobox
+            name="Last Modified"
+            label="Last Modified"
+            value={value}
+            placeholder="Select Progress"
+            options={options}
+            onchange={handleChange} ></lightning-combobox>
+
+            <lightning-combobox
+            name="Status"
+            label="Status"
+            value={value2}
+            placeholder="Select status"
+            options={optionsstatus}
+            onchange={handleChange} ></lightning-combobox>
+
+            <lightning-input type="date" label="Start Date"> 
+                
+            </lightning-input> 
+            <lightning-input type="date" label="End Date"> 
+                
+            </lightning-input>
 </template>
