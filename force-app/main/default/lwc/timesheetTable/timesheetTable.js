@@ -1,5 +1,4 @@
 import { LightningElement } from 'lwc';
-import fetchData from './fetchData';
 
 const columns = [
     { label: 'Status', fieldName: 'name' },
@@ -15,7 +14,6 @@ export default class BasicDatatable extends LightningElement {
 
     // eslint-disable-next-line @lwc/lwc/no-async-await
     async connectedCallback() {
-        const data = await fetchData({ amountOfRecords: 100 });
-        this.data = data;
+        
     }
 }
